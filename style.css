@@ -2,3 +2,56 @@ html {
   height: 100%;
   width: 100%;
 }
+
+@font-face {
+  font-family: minecraftFont;
+  src: url(Minecraftia-Regular.ttf);
+}
+/* Credit: https://www.dafont.com/minecraftia.font*/
+
+
+body {
+  background-color: #0C212E;
+}
+
+
+/* Classes */
+.banner {
+  border: 2px solid white;
+  background-color: #05434F;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  font-family: minecraftFont;
+}
+
+.container {
+  border: 2px solid white;
+  background-color: #05434F;
+  color: white;
+  overflow: hidden;
+  font-family: minecraftFont;
+}
+
+.container h3{
+  text-align: center;
+}
+
+.wardenColor{
+  color: #227F92;
+  text-decoration: underline;
+}
+
+.about{
+  background-color: #05434F;
+  color: white;
+  float: left;
+  overflow: hidden;
+  font-family: minecraftFont;
+}
+
+.about img {
+  width: 600px;
+  height: 350px;
+}
+/* ID's */
